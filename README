@@ -1,3 +1,3 @@
 Lets make a genetic algorithm framework that will use couchdb on the backend, to handle all of the sorting and reducing, and javascript to get it all going.  Eventually, this can scale, so that each new browser can represent a new population!  Thats the general idea anyways, really net heavy, but hopefully I can minimize this by the browsers doing a lot of evaluating.
 
-Perhaps, the clients have multiple workers, one for listing to the changes feed and evaluating them, ...
+Perhaps, the clients have multiple workers, one for listing to the changes feed and evaluating them, ... ah, so maybe you only get new candidates, when you post new ones, that way integration can happen asynchronously! but incorporated at the right point.
